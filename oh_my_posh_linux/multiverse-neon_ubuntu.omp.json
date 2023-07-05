@@ -6,17 +6,8 @@
       "segments": [
         {
           "background": "#29315A",
-          "leading_diamond": "\ue0b6",
-          "foreground": "#e76aaa",
-          "style": "diamond",
-          "trailing_diamond": "\ue0b4",
-          "template": "{{.Icon}} ",
-          "type": "os"
-        },
-        {
-          "background": "#29315A",
           "foreground": "#63d7d3",
-          "leading_diamond": " \ue0b6",
+          "leading_diamond": "\ue0b6",
           "properties": {
             "style": "mixed"
           },
@@ -24,6 +15,29 @@
           "template": "\ue5ff {{ .Location }}",
           "trailing_diamond": "\ue0b4",
           "type": "path"
+        },
+        {
+          "background": "#29315A",
+          "leading_diamond": " \ue0b6",
+          "foreground": "#d4629b",
+          "style": "diamond",
+          "template": "{{.Icon}} ",
+          "type": "os"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#d4629b",
+          "style": "plain",
+          "template": "<#d84890>CPU:</> {{ round .PhysicalPercentUsed .Precision }}% |",
+          "type": "sysinfo"
+        },
+        {
+          "background": "#29315A",
+          "foreground": "#d4629b",
+          "style": "diamond",
+          "template": " <#d84890>RAM:</> {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB",
+          "type": "sysinfo",
+          "trailing_diamond": "\ue0b4"
         },
         {
           "background": "#29315A",
