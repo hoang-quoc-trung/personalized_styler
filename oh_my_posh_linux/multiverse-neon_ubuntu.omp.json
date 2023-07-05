@@ -45,7 +45,10 @@
           "leading_diamond": " \ue0b6",
           "properties": {
             "fetch_version": false,
-            "always_enabled": true
+            "fetch_virtual_env": true,
+            "display_mode": "environment",
+            "always_enabled": true,
+            "home_enabled": true
           },
           "trailing_diamond": "\ue0b4",
           "style": "diamond",
