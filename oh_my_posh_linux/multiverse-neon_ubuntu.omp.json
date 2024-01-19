@@ -80,7 +80,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "\uf252: {{ .FormattedMs }}",
+          "template": "\uf252: {{ .FormattedMs }}<#ffffff>",
           "type": "executiontime"
         },
         {
