@@ -5,13 +5,13 @@
 ![](imgs/1_oh_my_posh.png)
 - Details at [oh my posh](https://ohmyposh.dev/docs/installation/linux)
 
-- Setup for linux:
+- Setup for Linux:
     ```bash
     cd oh_my_posh_linux
     bash oh_my_posh.sh
     ```
 
-- Setup for windows:
+- Setup for Windows:
     - [Install here](https://ohmyposh.dev/docs/installation/windows)
     - Open `Windows PowerShell` -> Enter `code $profile` to opne `Microsoft.PowerShell_profile.ps1` -> Insert:
         ```bash
@@ -27,13 +27,14 @@
 ![](imgs/2_terminal_icon.png)
 - Repository [logo-ls](https://github.com/Yash-Handa/logo-ls)
 
-- Setup for linux:
+- Setup for Linux:
     ```bash
-    cd terminal-icon-linux
+    cd terminal_icon_linux
     bash install.sh
     ```
+    -> To use: `lsc` or `logo-ls`
 
-- Setup for windows:
+- Setup for Windows:
     - Open Windows Powershell
     - Run `Install-Module -Name Terminal-Icons -Scope CurrentUser -Force`
     - Open Microsoft.PowerShell_profile.ps1 by run `code $profile` -> Insert `Import-Module Terminal-Icons`
