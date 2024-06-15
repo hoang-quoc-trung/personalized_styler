@@ -3,7 +3,7 @@
 
 ### 1. Oh My Posh Terminal
 ![](imgs/1_oh_my_posh.png)
-- Detail at [oh my posh](https://ohmyposh.dev/docs/installation/linux)
+- Details at [oh my posh](https://ohmyposh.dev/docs/installation/linux)
 
 - Setup for linux:
     ```bash
@@ -25,7 +25,7 @@
 
 ### 2. Terminal Icon
 ![](imgs/2_terminal_icon.png)
-- Repository: [logo-ls](https://github.com/Yash-Handa/logo-ls)
+- Repository [logo-ls](https://github.com/Yash-Handa/logo-ls)
 
 - Setup for linux:
     ```bash
@@ -40,25 +40,30 @@
 
 
 ### 3. Auto Complete for Linux:
-- Repository: [bleu.sh](https://github.com/akinomyoga/ble.sh)
+- Repository [bleu.sh](https://github.com/akinomyoga/ble.sh)
 
-```bash
-cd auto_complete_linux
-bash run_auto_complete.sh
-```
+    ```bash
+    cd auto_complete_linux
+    bash run_auto_complete.sh
+    ```
 
 
 ### 4. Visual Studio Code Customn for Windows - [visual_studio_code_custom_windows](./visual_studio_code_custom_windows)
 
 
-### 5. Hyper Terminal for Windows - [hyper_windows](./hyper_windows)
+### 5. Hyper Terminal for Windows
 <!-- ![](imgs/4_hyper.png) -->
-<img src="imgs/4_hyper.png" alt="hyper application" width="1200"> \
-- Detail at [hyper.is](https://hyper.is/)
+<img src="imgs/4_hyper.png" alt="hyper application" width="1200"> 
 
-- [Install](https://hyper.is/#installation)
+- Details at [hyper.is](https://hyper.is/)
+
+- [Install here](https://hyper.is/#installation)
+
 - Config:
     - Go to `Preferences...`
+
         ![](imgs/5_hyper_setting.png)
-    - Paste the content from the `.hyper.js` file in the `personalized_styler\hyper_windows` folder.
-    - Reload hyper windows.
+
+    - Copy the content from the [.hyper.js](./hyper_windows/.hyper.js) file and paste it into the config window.
+
+    - Reload hyper window.
