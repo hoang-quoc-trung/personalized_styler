@@ -1,9 +1,8 @@
-# Auto Complete ble.sh
-
-#git clone --recursive https://github.com/akinomyoga/ble.sh.git
+#!/bin/bash#
+git clone --recursive https://github.com/akinomyoga/ble.sh.git
 cd ble.sh
 sudo apt-get update
-sudo apt-get install gawk
+sudo apt-get install gawk -y
 make install
 make install INSDIR=/path/to/blesh
 make install DESTDIR=/tmp/blesh-package PREFIX=/usr/local
